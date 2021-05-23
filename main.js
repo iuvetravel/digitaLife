@@ -18,4 +18,11 @@ $(document).ready(function () {
       $(".navbar-wrapper").removeClass("fxd-navbar-wrapper");
     }
   });
+  //features slider
+  $(".features-right .owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    items: 1,
+  });
 });
