@@ -622,10 +622,14 @@ img {
   background: var(--white);
 }
 /* Testimonials */
+
 .testimonial {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/city.jpg) center/cover fixed no-repeat;
   transition: all 0.5s ease;
+}
+.testimonial .title-text {
+  color: var(--white);
 }
 .testimonial-wrapper .item {
   padding: 1.5rem;
