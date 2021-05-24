@@ -57,6 +57,20 @@ $(document).ready(function () {
       scroll.style.opacity = 0;
     }
   });
+  //smooth scroll
+  let link = $(".navbar-nav a.nav-link");
+  link.click(function (e) {
+    e.preventDefault();
+    let target = $(this).attr("href");
+    $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: $(target).offset().top,
+        },
+        1000
+      );
+  });
 });
 //Scroll
 const scroll = document.querySelector("#scroll");
