@@ -1291,8 +1291,13 @@ textarea::placeholder {
     grid-template-columns: repeat(1, 1fr);
   }
   .team-icons {
-    margin-top: 29rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
     margin-right: 5.7rem;
+  }
+  .single-team .text-large {
+    margin-top: 4rem;
   }
   .btn-form {
     margin-left: 1rem;
