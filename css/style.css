@@ -1294,8 +1294,7 @@ textarea::placeholder {
   .team-icons {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-    margin-left: 2.7rem;
+    margin-bottom: 3rem;
   }
   .single-team .text-large {
     margin-top: 4rem;
