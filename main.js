@@ -40,4 +40,36 @@ $(document).ready(function () {
       },
     },
   });
+  //footer date
+  const date = new Date();
+  $(".copyright-date").text(date.getFullYear());
+  const scroll = document.querySelector("#scroll");
+  scroll.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+  window.addEventListener("scroll", () => {
+    if (window.scrollY >= 900) {
+      scroll.style.opacity = 1;
+    } else {
+      scroll.style.opacity = 0;
+    }
+  });
+});
+//Scroll
+const scroll = document.querySelector("#scroll");
+scroll.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+window.addEventListener("scroll", () => {
+  if (window.scrollY >= 900) {
+    scroll.style.opacity = 1;
+  } else {
+    scroll.style.opacity = 0;
+  }
 });
