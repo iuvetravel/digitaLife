@@ -670,6 +670,9 @@ img {
 }
 .team-icons {
   position: absolute;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
   top: 0;
   right: 0;
 }
@@ -677,17 +680,16 @@ img {
   border-radius: 0;
   margin: 0;
   color: var(--blue);
-  width: 2.5rem;
-  height: 2.5rem;
-  margin: 0 0.4rem;
+  width: 2rem;
+  height: 2rem;
+
   font-size: 2rem;
   background: var(--white);
   box-shadow: none;
 }
 .team-icons {
   display: flex;
-  margin-top: 29rem;
-  margin-right: 4.2rem;
+  justify-content: center;
 }
 .single-team .text-large {
   text-align: center;
@@ -959,19 +961,12 @@ textarea::placeholder {
   }
   .team-icons {
     display: flex;
-    margin-top: 24rem;
-    margin-right: 3.5rem;
+    justify-content: center;
   }
   .single-team .text-uppercase {
     font-size: 1.2rem;
   }
-  .team-icons .sq-icon {
-    width: 2rem;
-    height: 2rem;
-    margin: 0 0.4rem;
-    font-size: 2rem;
-    background: var(--white);
-  }
+
   .blog-wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1294,6 +1289,7 @@ textarea::placeholder {
   .team-icons {
     display: flex;
     justify-content: center;
+    margin-top: 23rem;
   }
   .single-team .text-large {
     margin-top: 2rem;
@@ -1311,11 +1307,6 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 375px) {
-  .team-icons {
-    margin-top: 23rem;
-    margin-right: 3.5rem;
-  }
-
   .navbar-collapse li a {
     font-size: 1.5rem;
   }
@@ -1336,7 +1327,7 @@ textarea::placeholder {
   .team-icons {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-top: 15.3rem;
   }
   .single-team .text-large {
     margin-top: 1rem;
