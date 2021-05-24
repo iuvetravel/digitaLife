@@ -25,4 +25,19 @@ $(document).ready(function () {
     nav: true,
     items: 1,
   });
+
+  //testimonial slider
+  $(".testimonial .owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      992: {
+        items: 2,
+      },
+    },
+  });
 });
