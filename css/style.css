@@ -19,7 +19,8 @@ body {
 }
 
 a {
-  color: var(--white);
+  color: var(--strong);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-decoration: none;
 }
 li {
@@ -172,6 +173,7 @@ img {
   background: var(--blue);
 }
 .nav-link {
+  color: var(--white);
   font-family: "Saira", sans-serif;
   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -238,6 +240,8 @@ img {
 }
 .banner-btns {
   margin-top: 1.2rem;
+  color: var(--strong);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .banner-btn {
   background: transparent;
@@ -245,13 +249,19 @@ img {
   padding: 0.7rem 1rem;
   font-family: "Saira", sans-serif;
   font-size: 1.8rem;
-  color: var(--medium);
+  color: var(--strong);
   font-weight: 700;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.3s ease;
+}
+
+.banner-btns:hover {
+  color: var(--white);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .banner-btn:hover {
   color: var(--white);
