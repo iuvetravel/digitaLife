@@ -1333,6 +1333,14 @@ textarea::placeholder {
   .single-service .text-large {
     font-size: 1.5rem;
   }
+  .team-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .single-team .text-large {
+    margin-top: 1rem;
+  }
   .sq-icon {
     width: 30px;
     height: 30px;
